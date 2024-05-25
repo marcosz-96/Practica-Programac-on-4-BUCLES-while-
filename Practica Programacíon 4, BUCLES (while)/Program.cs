@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,6 +47,85 @@ namespace Practica_Programacíon_4__BUCLES__while_
             Console.WriteLine("Fin de la operación!");*/
 
 
+            //Ejercicio 3 de la Guía 4: Fábrica de perfiles
+
+            /*int piezas = 0;
+            double longitud = 0; 
+            int piezasAptas = 0;
+            int cant = 0; 
+            
+
+            Console.Write("Ingrese la cantidad de piezas a procesar: ");
+            piezas = int.Parse(Console.ReadLine());
+
+            while (cant < piezas)
+            {
+                Console.Write("Ingrese la longitud de las piezas: ");
+                longitud = double.Parse(Console.ReadLine());
+
+                if (longitud >= 120 && longitud <= 130)
+                {
+                    piezasAptas++;
+                }
+                cant++;
+            }
+
+            Console.WriteLine("La cantidad de piezas aptas son:  " +piezasAptas);*/
+
+
+            //Ejercicio 4 de la Guía 4: Notas de alumnos
+
+            /*int notas = 0;
+            double notasBajas = 0; 
+            int notasAltas = 0;
+            int mas = 0; 
+            
+
+            while (mas < 10)
+            {
+                Console.Write("Ingrese las notas de los alumnos: ");
+                notas = int.Parse(Console.ReadLine());
+                mas++;
+
+                if (notas >= 7)
+                {
+                    notasAltas++;
+                }
+                else
+                {
+                    notasBajas++;
+                }
+            }
+
+            Console.WriteLine("Las Notas a partir de 7 son:  " +notasAltas);
+            Console.WriteLine("Las Notas menores a 7 son: " +notasBajas);*/
+
+
+            //Ejercicio 5 de la Guía 4: Promedios de altura
+
+            /*double altura = 0;
+            double promAlt = 0;
+            int contAlt = 0;
+            double sumAlt = 0;
+            int cantAltura = 0;
+
+
+            Console.Write("Escriba la cantidad de estaturas que quiere promediar: ");
+            cantAltura = int.Parse(Console.ReadLine());
+
+            while (contAlt < cantAltura)
+            {
+                Console.Write("Escriba la estaturas a promediar: ");
+                altura = double.Parse(Console.ReadLine());
+                sumAlt = sumAlt + altura;
+                promAlt = sumAlt / cantAltura;
+
+                contAlt++;
+            }
+            Console.WriteLine("El promedio de estaturas es: " +promAlt);*/
+
+
+
             //Ejercicio 6 de la Guía 4: Lectura de sueldos
 
             /*int empleado = 0;
@@ -85,6 +165,22 @@ namespace Practica_Programacíon_4__BUCLES__while_
             Console.WriteLine($"Cantidad de empleados con sueldos bajon son: {sueldosBajos}");
             Console.WriteLine($"Cantidad de empleados con sueldos altos son: {sueldosAltos}");
             Console.WriteLine($"Los gatos de la empresa son de: {gastosEmpresa}");*/
+
+
+            //Ejercicio 7 de la Guía 4: Términos de la serie
+
+
+            /*int nNum = 0;
+            int nCont = 0;
+
+            Console.WriteLine("Se muestran los resultados de los términos");
+
+            while (nCont < 10)
+            {
+                Console.WriteLine(nNum);
+                nNum += 11;
+                nCont++;
+            }*/
 
 
             //Ejercicio 8 de la Guía 4: Multiplos de 8 desde el 0 al 500
