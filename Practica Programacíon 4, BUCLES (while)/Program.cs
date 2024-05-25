@@ -162,18 +162,18 @@ namespace Practica_Programacíon_4__BUCLES__while_
 
 
             }
-            Console.WriteLine($"Cantidad de empleados con sueldos bajon son: {sueldosBajos}");
+            Console.WriteLine($"Cantidad de empleados con sueldos bajos son: {sueldosBajos}");
             Console.WriteLine($"Cantidad de empleados con sueldos altos son: {sueldosAltos}");
             Console.WriteLine($"Los gatos de la empresa son de: {gastosEmpresa}");*/
 
 
-            //Ejercicio 7 de la Guía 4: Términos de la serie
 
+            //Ejercicio 7 de la Guía 4: Términos de la serie
 
             /*int nNum = 0;
             int nCont = 0;
 
-            Console.WriteLine("Se muestran los resultados de los términos");
+            Console.WriteLine("Se muestran los resultados de los términos de series");
 
             while (nCont < 10)
             {
@@ -183,11 +183,12 @@ namespace Practica_Programacíon_4__BUCLES__while_
             }*/
 
 
-            //Ejercicio 8 de la Guía 4: Multiplos de 8 desde el 0 al 500
+
+            //Ejercicio 8 de la Guía 4: Múltiplos de 8 desde el 0 al 500
 
             /*int xNum = 0;
             
-            Console.WriteLine("Se muestran por consola los números múltiplos de 8, desde el cero al 500");
+            Console.WriteLine("Se muestran los números múltiplos de 8, desde el 0 al 500");
 
             while (xNum <= 500)
             {
@@ -274,7 +275,7 @@ namespace Practica_Programacíon_4__BUCLES__while_
                 cont++;
             }
 
-            Console.WriteLine($"Los números ingresados tiene {numPar} pares y {numImp} impares");
+            Console.WriteLine($"La lista de números ingresados tienen {numPar} números pares y {numImp} números impares");
             */
         }
 
